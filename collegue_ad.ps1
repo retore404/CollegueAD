@@ -20,8 +20,6 @@ foreach ($l in Get-Content $Args[0]) {
     }
 }
 
-$array_exist_user
-
 # 配列をファイルに書き込み
 $array_exist_user >> output.txt
 
